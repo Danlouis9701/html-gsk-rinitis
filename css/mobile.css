@@ -1,0 +1,155 @@
+:root {
+    --color-primario: #273a86;
+    --color-secundario: #f75a0a;
+    --color-terciario: #1ed6ff;
+}
+
+.color-primario {
+    color: var(--color-primario);
+}
+
+.color-secundario {
+    color: var(--color-secundario);
+}
+
+.color-terciario {
+    color: var(--color-terciario);
+}
+
+.bg-orange {
+    background-color: var(--color-secundario);
+}
+
+/* Estilos Home */
+#bg-home {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    background-image: url(../images/bg-home-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#bg-login {
+    width: 100%;
+    min-height: 90vh;
+    position: relative;
+    background-image: url(../images/bg-circulos.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#bg-agenda {
+    width: 100%;
+    background-image: url(../images/bg-circulos.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#bg-ondemand {
+    width: 100%;
+    min-height: 90vh;
+    background-image: url(../images/bg-circulos.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.altura-100vh {
+    min-height: 90vh;
+}
+.height-5vh {
+    padding: 5vh 0;
+}
+.relative {
+    position: relative;
+}
+.button-bottom {
+    position: absolute;
+    bottom: 8vh;
+}
+footer {
+    width: 100%;
+    background-color: var(--color-terciario);
+}
+
+/* Estilos agenda */
+.card-agenda, .view {
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem !important;
+}
+.agenda-item{
+    font-size: 3vh;
+    color: var(--color-primario);
+}
+ul.list-module li::before {
+    content: "\2610";
+    color: var(--color-secundario);
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+.list-group-item {
+    border: none;
+}
+.list-group-item {
+  padding: .35rem 1.25rem;
+}
+.list-module{
+    padding-inline-start: 10px;
+}
+.onDemand{
+    -webkit-transition: all 0.35s ease-out;
+    -moz-transition: all 0.35s ease-out;
+    -ms-transition: all 0.35s ease-out;
+    -o-transition: all 0.35s ease-out;
+    transition: all 0.35s ease-out;
+}
+.onDemand:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+/* Estilos del acordeon */
+
+  .bg-module{
+      color: white;
+    background: rgb(229,91,0);
+    background: -moz-linear-gradient(45deg, rgba(229,91,0,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(229,91,0,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background: linear-gradient(45deg, rgba(229,91,0,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e55b00",endColorstr="#fcb045",GradientType=1);
+  }
+
+  .accordion-head i{
+    font-size: 2.5em;
+    float: right;
+}
+
+.accordion-head > .collapsed > i:before{
+    content: "\f055";
+}
+.card-header {
+    background-image: url(../images/bg-accordion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.video-check{
+    margin-left: 0;
+}
+.title-check{
+    font-size: 2vh;
+}
+.mini-vide{
+    color: grey;
+    font-size: 1.5vh;
+}

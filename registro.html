@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang='es'>
+<head>
+<meta charset='UTF-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<title>Registro</title>
+<!-- Google Fonts -->
+<link rel='preconnect' href='https://fonts.gstatic.com'>
+<link href='https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap' rel='stylesheet'>
+<!-- Bootstrap core CSS -->
+<link href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css' rel='stylesheet'>
+<!-- Material Design Bootstrap -->
+<link href='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css' rel='stylesheet'>
+<link rel="stylesheet" href="css/menu.css">
+<link rel='stylesheet' href='css/mobile.css'>
+<link rel='stylesheet' href='css/responsive.css'>
+</head>
+<body>
+    <div id="top-menu" class="container-fluid">
+        <div class="row py-2">
+            <div class="col-3 col-md-6">
+                <nav id="menu-hamburguer">
+                    <div id="menuToggle">
+                      <input type="checkbox" />
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <ul id="menu">
+                        <a href="index.html" id="btn-Home"><li>Home</li></a>
+                        <a href="registro.html" id="btn-Register"><li>Registro</li></a>
+                        <a href="agenda.html" id="btn-Agenda"><li>Agenda</li></a>
+                        <a href="#" id="btn-Speakers"><li>Speakers</li></a>
+                        <a href="ondemand.html" id="btn-Sessions"><li>On Demand</li></a>
+                        <a href="#" id="btn-Sessions"><li>Contacto</li></a>
+                      </ul>
+                    </div>
+                  </nav>
+            </div>
+            <div class="col-9 col-md-6 text-right">
+                <div class="row align-items-center">
+                    <div class="col-6 col-md-7"><a type="button" href="login.html" class="btn btn-info mr-0">Ingresar</a></div>
+                    <div class="col-6 col-md-5"><img src="images/logos-menu.png" alt="" class="img-fluid"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="bg-login">
+        <div class="container-fluid">
+            <div class="row justify-content-center align-items-center">
+                <!-- Nuevo para el producto -->
+                <div class="col-2"><img src="images/Avamys_PS.png" alt="" class="img-fluid d-none d-md-block"></div>
+
+                <div class="col-12 col-md-8">
+                    <!--Card-->
+                    <div class="card mt-5 slideUp">
+                        <!--Card content-->
+                        <div class="card-body p-0">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="images/Registro-Arte-desktop.jpg" class="img-fluid d-none d-md-block" width="100%" alt="">
+                                    <img src="images/Registro-header-movil.png" class="img-fluid d-block d-md-none" width="100%" alt="">
+                                </div>
+                                <div class="col-md-8 px-5 py-3">
+                                    <div class="row ">
+                                        <div class="col-md-6"><h2 class="h1 color-primario mb-4">Registro</h2></div>
+                                        <div class="col-md-6 mb-4 mb-md-0"><img src="images/logos-menu.png" alt="" class="img-fluid"></div>
+                                    </div>
+                                    <form action="">
+                                        <!-- Nombre -->
+                                        <input type="text" id="nombre" class="form-control mb-3" placeholder="Nombre">
+                                        <div class="valid-feedback">¡Bien!</div>
+                                        <div class="invalid-feedback">¡Parece que falta algo aqui!</div>
+                                        <!-- Apellidos -->
+                                        <input type="text" id="apellidos" class="form-control mb-3" placeholder="Apellido paterno y materno">
+                                        <div class="valid-feedback">¡Bien!</div>
+                                        <div class="invalid-feedback">¡Parece que falta algo aqui!</div>
+                                        <!-- Estados -->
+                                        <input type="text" id="estado" class="form-control mb-3" placeholder="E-mail">
+                                        <div class="valid-feedback">¡Bien!</div>
+                                        <div class="invalid-feedback">¡Parece que falta algo aqui!</div>
+                                        <!-- Genero -->
+                                        <input type="text" id="genero" class="form-control mb-3" placeholder="Genero">
+                                        <div class="valid-feedback">¡Bien!</div>
+                                        <div class="invalid-feedback">¡Parece que falta algo aqui!</div>
+                                        <!-- Cédula -->
+                                        <input type="text" id="cedula" class="form-control mb-3" placeholder="Cédula profesional">
+                                        <div class="valid-feedback">¡Bien!</div>
+                                        <div class="invalid-feedback">¡Parece que falta algo aqui!</div>
+                                        <!-- Email -->
+                                        <input type="email" id="defaultLoginFormEmail" class="form-control mb-3" placeholder="Correo electrónico">
+                                        <div class="valid-feedback">¡Bien!</div>
+                                        <div class="invalid-feedback">¡Parece que falta algo aqui!</div>
+                                        <!-- Teléfono -->
+                                        <input type="text" id="telefono" class="form-control mb-3" placeholder="Teléfono">
+                                        <div class="valid-feedback">¡Bien!</div>
+                                        <div class="invalid-feedback">¡Parece que falta algo aqui!</div>
+                                        <!-- Nombre de Constancia -->
+                                        <input type="text" id="nombre" class="form-control mb-3" placeholder="Nombre para el certificado">
+                                        <div class="valid-feedback">¡Bien!</div>
+                                        <div class="invalid-feedback">¡Parece que falta algo aqui!</div>
+
+                                        <button type="button" class="btn btn-orange btn-block mx-auto">Enviar registro</button>
+                                        
+                                     </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/.Card-->
+                </div>
+                <!-- Nuevo para el producto -->
+                <div class="col-2"><img src="images/Avamys_PS.png" alt="" class="img-fluid d-none d-md-block"></div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-fluid py-2">
+            <div class="row">
+                <div class="col-12 text-right"></div>
+            </div>
+        </div>
+    </footer>
+<!-- JQuery -->
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+<!-- Font Awesome -->
+<script src='https://kit.fontawesome.com/5b94966658.js' crossorigin='anonymous'></script>
+<!-- Bootstrap tooltips -->
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js'></script>
+<!-- Bootstrap core JavaScript -->
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js'></script>
+<!-- MDB core JavaScript -->
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+<script>
+    let tl = gsap.timeline();
+    tl.from(".slideUp", {
+        duration: 1,
+        y:100,
+        autoAlpha: 0,
+        ease: Power3.easeOut
+    });
+</script>
+</body>
+</html>

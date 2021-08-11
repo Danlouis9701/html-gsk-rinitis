@@ -1,0 +1,52 @@
+/* Contador  */
+.number-count {
+    border:dotted 4px #5fac43;
+    color: #5fac43;
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 25px;
+    line-height: 6vh;
+    text-align: center;
+    font-size: 3vh;
+    margin: 0 auto;
+}
+
+.fecha {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #5fac43;;
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {  }
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { }
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    .number-count {
+        border:dotted 4px #5fac43;
+        color: #5fac43;
+        width: 150px;
+        height: 150px;
+        display: block;
+        border-radius: 75px;
+        line-height: 15vh;
+        text-align: center;
+        font-size: 9vh;
+        margin: 0 auto;
+    }
+    
+    .fecha {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        color: #5fac43;;
+    }
+ }
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { }
+/* Extra large devices (large desktops, 1366px and up)*/
+@media (min-width: 1366px) {  }

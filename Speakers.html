@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang='es'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Speakers</title>
+
+    <link rel='preconnect' href='https://fonts.gstatic.com'>
+    <link href='https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap' rel='stylesheet'>
+
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css' rel='stylesheet'>
+
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel='stylesheet' href='css/mobile.css'>
+    <link rel='stylesheet' href='css/responsive.css'>
+    <!-- Incluir esta etiqueta style -->
+    <style>
+        .panel-group .panel {
+            border-radius: 0;
+            box-shadow: none;
+            border-color: #EEEEEE;
+        }
+
+        .panel-default>.panel-heading {
+            padding: 0;
+            border-radius: 0;
+            color: #fff;
+            background-color: #ff4a00;
+            border-color: #ff4a00;
+        }
+
+        .panel-title {
+            font-size: 14px;
+        }
+
+        .panel-title>a {
+            display: block;
+            padding: 15px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: 700;
+            font-size: 2.2vh;
+            text-transform: uppercase;
+        }
+
+        .more-less {
+            float: right;
+            color: #fff;
+        }
+
+        .panel-default>.panel-heading+.panel-collapse>.panel-body {
+            border-top-color: #ff4a00;
+        }
+
+        .panel-body {
+            background: rgb(207, 210, 210);
+            background: -moz-linear-gradient(90deg, rgba(207, 210, 210, 1) 0%, rgba(156, 221, 225, 1) 50%, rgba(90, 237, 244, 1) 100%);
+            background: -webkit-linear-gradient(90deg, rgba(207, 210, 210, 1) 0%, rgba(156, 221, 225, 1) 50%, rgba(90, 237, 244, 1) 100%);
+            background: linear-gradient(90deg, rgba(207, 210, 210, 1) 0%, rgba(156, 221, 225, 1) 50%, rgba(90, 237, 244, 1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cfd2d2", endColorstr="#5aedf4", GradientType=1);
+            padding: 2rem;
+        }
+        .txt-cuerpo{
+            font-weight: 400;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="top-menu" class="container-fluid">
+        <div class="row py-2">
+            <div class="col-3 col-md-6">
+                <nav id="menu-hamburguer">
+                    <div id="menuToggle">
+                        <input type="checkbox" />
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <ul id="menu">
+                            <a href="index.html" id="btn-Home">
+                                <li>Home</li>
+                            </a>
+                            <a href="registro.html" id="btn-Register">
+                                <li>Registro</li>
+                            </a>
+                            <a href="agenda.html" id="btn-Agenda">
+                                <li>Agenda</li>
+                            </a>
+                            <a href="#" id="btn-Speakers">
+                                <li>Speakers</li>
+                            </a>
+                            <a href="ondemand.html" id="btn-Sessions">
+                                <li>On Demand</li>
+                            </a>
+                            <a href="#" id="btn-Sessions">
+                                <li>Contacto</li>
+                            </a>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-9 col-md-6 text-right">
+                <div class="row align-items-center">
+                    <div class="col-6 col-md-7"><a type="button" href="login.html"
+                            class="btn btn-info mr-0">Ingresar</a></div>
+                    <div class="col-6 col-md-5"><img src="images/logos-menu.png" alt="" class="img-fluid"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="bg-ondemand">
+        <div class="container demo pt-5">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="color-primario font-weight-bold display-4 mb-4">Speakers</h2>
+                </div>
+            </div>
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
+                                <i class="fas fa-plus-square more-less"></i>
+                                Dr. Armando Partida Gaytán
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-12 col-md-3 text-center text-md-left">
+                                    <img src="images/speakers/Dr-ARMANDO-PARTIDA_.png" class="img-fluid mb-3" alt="">
+                                </div>
+                                <div class="col-12 col-md-8">
+                                    <h4 class="color-primario font-weight-bold text-uppercase">Dr. Armando Partida Gaytán</h4>
+                                    <h5 class="color-primario txt-cuerpo text-uppercase">Gerente Médico GSK</h5>
+                                    <p class="txt-cuerpo">Médico Alergólogo e inmunólogo clínico pediatra, con estudios de posgrado en Inmunodeficiencias primarias. Maestría en ciencias médicas y Maestría en terapia génica y celular.</p>
+                                    <p class="txt-cuerpo">Actualmente ejerce en su consultorio privado, colabora con la Fundación Mexicana de Niñas y Niños con Inmunodeficiencias Primarias.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
+                                aria-expanded="true" aria-controls="collapseTwo">
+                                <i class="fas fa-plus-square more-less"></i>
+                                Dra. Juana Cristina Lezo Salazar
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-12 col-md-3 text-center text-md-left">
+                                    <img src="images/speakers/drajuana.png" class="img-fluid mb-3" alt="">
+                                </div>
+                                <div class="col-12 col-md-8">
+                                    <h4 class="color-primario font-weight-bold text-uppercase">Dra. Juana Cristina Lezo Salazar</h4>
+                                    <h5 class="color-primario txt-cuerpo text-uppercase">Otorrinolaringología y Cirugía de Cabeza y Cuello </h5>
+                                    <p class="txt-cuerpo">Licenciatura Médico Cirujano, Facultad de Medicina de Universidad Autónoma de Guadalajara (2007 - 2011). </p>
+                                    <p class="txt-cuerpo">Internado: Médico interno de pregrado, Hospital Aranda de la Parra. León, Guanajuato (Julio 2011 - Junio 2012). </p>
+                                    <p class="txt-cuerpo">Servicio social, Instituto Mexicano del Seguro Social, Unidad de Medicina Familiar 51. Guadalajara, Jalisco (2013).</p>
+                                    <p class="txt-cuerpo">Especialidad en Otorrinolaringología y Cirugía de Cabeza y Cuello, Hospital Español de México (2015 – 2019). Universidad La Salle.</p>
+                                    <p class="txt-cuerpo">Subespecialidad en Otorrinolaringología Pediátrica, Hospital Infantil de México Federico Gómez (2019 – 2021). Universidad Nacional Autónoma de México. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"
+                                aria-expanded="true" aria-controls="collapseThree">
+                                <i class="fas fa-plus-square more-less"></i>
+                                Dra. Karina Nayeli Pérez Téllez
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+                        aria-labelledby="headingThree">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-12 col-md-3 text-center text-md-left">
+                                    <img src="images/speakers/DRAKARINA.png" class="img-fluid mb-3" alt="">
+                                </div>
+                                <div class="col-12 col-md-8">
+                                    <h4 class="color-primario font-weight-bold text-uppercase">Dra. Karina Nayeli Pérez Téllez</h4>
+                                    <h5 class="color-primario txt-cuerpo text-uppercase">Gerente Médico del área de Respiratorio | gsk</h5>
+                                    <p class="txt-cuerpo">Médico Cirujano por la Universidad Nacional Autónoma de México con especialidad en Neumología y Fisiología pulmonar realizadas en el Hospital General de México “Eduardo Liceaga” avaladas por la máxima casa de estudios, Maestría en Ciencias Médicas por la Universidad Nacional Autónoma de México. Ejerce su práctica clínica de manera privada.</p>
+                                    <p class="txt-cuerpo">Miembro de la SMNYCT, ALAT, ATS, ERS y SOLAFIRE. Actualmente se desempeña como Scientific Advisor en el área de Respiratorio para GSK México.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingFour">
+                        <h4 class="panel-title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour"
+                                aria-expanded="true" aria-controls="collapseFour">
+                                <i class="fas fa-plus-square more-less"></i>
+                                Dra. Paola de Baro
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel"
+                        aria-labelledby="headingFour">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-12 col-md-3 text-center text-md-left">
+                                    <img src="images/speakers/DRAPAOLA.png" class="img-fluid mb-3" alt="">
+                                </div>
+                                <div class="col-12 col-md-8">
+                                    <h4 class="color-primario font-weight-bold text-uppercase">Dra. Paola de Baro</h4>
+                                    <h5 class="color-primario txt-cuerpo text-uppercase">Gerente Médico del área respiratoria | GSK México.</h5>
+                                    <p class="txt-cuerpo">Médico Cirujano por la Universidad Anáhuac con especialidad en Pediatría Médica y subespecialidad en Alergia e Inmunología Clínica Pediátrica por la Universidad Nacional Autónoma de México. Diplomado en Psiconeuroinmunoendocrinología. Ha colaborado en instituciones como el Hospital Infantil de Tlaxcala. Ha sido profesor de tiempo parcial en la Universidad de las Américas Puebla y profesor adjunto en la especialidad de Pediatría en el Hospital Infantil de Tlaxcala por la Facultad de Medicina de la Benemérita Universidad Autónoma de Puebla.</p>
+                                    <p class="txt-cuerpo">Ha participado como profesor en congresos como el Congreso Nacional de Alergia, Asma e Inmunología Pediátrica de COMPEDIA. Sus principales áreas de experiencia son Asma, Rinitis alérgica, Dermatitis atópica, Alergia alimentaria, entre otras.</p>
+                                    <p class="txt-cuerpo">Actualmente es Gerente Médico (Sicientific Advisor) del área de Respiratorio en la farmacéutica GSK México.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingFive">
+                        <h4 class="panel-title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive"
+                                aria-expanded="true" aria-controls="collapseFour">
+                                <i class="fas fa-plus-square more-less"></i>
+                                TR. Ana Belén del Angel Martínez
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel"
+                        aria-labelledby="headingFive">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-12 col-md-3 text-center text-md-left">
+                                    <img src="images/speakers/TRANABELEN.png" class="img-fluid mb-3" alt="">
+                                </div>
+                                <div class="col-12 col-md-8">
+                                    <h4 class="color-primario font-weight-bold text-uppercase">TR. Ana Belén del Angel Martínez</h4>
+                                    <h5 class="color-primario txt-cuerpo text-uppercase">Especialista en Terapia Respiratoria y Rehabilitación Pulmonar</h5>
+                                    <p class="txt-cuerpo">Trayectoria profesional de 15 años en el campo hospitalario y como ponente en Congresos Nacionales en foros de Especialidades Médicas y Jornadas de Salud Estatales. Certificada por el Centro de Educación Superior Interferenciales en Salud y Deporte, Certificado por la NIOSH emitido por la Sociedad Mexicana de Neumologia y Cirugía de Tórax, A.C. y el Instituto Nacional de Enfermedades Respiratorias (INER), es miembro de la Asociación Federal de Terapeutas Respiratorios A.C., así como de la Asociación Latinoamericana del Tórax (ALAT), cuenta con un Diplomado en Administración de los Servicios de Salud otorgado por Innovación Organizacional del Hospital Juárez Centro.</p>
+                                    <p class="txt-cuerpo">Actualmente pertenece al equipo médico respiratorio de GlaxoSmithKline 
+                                        México</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingSix">
+                        <h4 class="panel-title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix"
+                                aria-expanded="true" aria-controls="collapseFour">
+                                <i class="more-less fas fa-plus-square"></i>
+                                Dr. Antonio Tapia
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseSix" class="panel-collapse collapse" role="tabpanel"
+                        aria-labelledby="headingSix">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-12 col-md-3 text-center text-md-left">
+                                    <img src="images/speakers/DRANTONIOTAPIA.png" class="img-fluid mb-3" alt="">
+                                </div>
+                                <div class="col-12 col-md-8">
+                                    <h4 class="color-primario font-weight-bold text-uppercase">Dr. Antonio Tapia</h4>
+                                    <!-- <h5 class="color-primario txt-cuerpo text-uppercase">Especialista en Terapia Respiratoria y Rehabilitación Pulmonar</h5> -->
+                                    <p class="txt-cuerpo">Especialista en Rehabilitación Pulmonar y Terapia Respiratoria del Instituto Nacional de Enfermedades Respiratorias INER y certificado por el consejo latinoamericano de terapia respiratoria (CLCPRT) Miembro de la Asociación Latinoamérica de Tórax ALAT.</p>
+                                    <p class="txt-cuerpo">Se desempeño como Coordinador del servicio de Función Pulmonar en el Hospital Star Medica Centro, y obtuvo una Jefatura en el servicio de asistencia cardio respiratoria del Hospital Ángeles Lomas.</p>
+                                    <p class="txt-cuerpo">Actualmente pertenece al equipo médico de GSK otorgando educación médica continua a profesionales de la salud, exponiendo actualizaciones de interés y ponencias nacionales.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+
+            </div><!-- panel-group -->
+
+
+        </div><!-- container -->
+
+        <div class="height-5vh d-none d-lg-block"></div>
+    </section>
+
+    <footer>
+        <div class="container-fluid py-2">
+            <div class="row">
+                <div class="col-12 text-right"></div>
+            </div>
+        </div>
+    </footer>
+    <!-- JQuery -->
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    <!-- Font Awesome -->
+    <script src='https://kit.fontawesome.com/5b94966658.js' crossorigin='anonymous'></script>
+    <!-- Bootstrap tooltips -->
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js'>
+    </script>
+    <!-- Bootstrap core JavaScript -->
+    <script type='text/javascript'
+        src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js'></script>
+    <!-- MDB core JavaScript -->
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js'>
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        let tl = gsap.timeline();
+        tl.from(".slideUp", {
+            duration: 1,
+            y: 100,
+            autoAlpha: 0,
+            ease: Power3.easeOut
+        });
+    </script>
+    <script>
+        /*******************************
+         * ACCORDION WITH TOGGLE ICONS
+         *******************************/
+        function toggleIcon(e) {
+            $(e.target)
+                .prev('.panel-heading')
+                .find(".more-less")
+                .toggleClass('fa-plus-square fa-minus-square');
+        }
+        $('.panel-group').on('hidden.bs.collapse', toggleIcon);
+        $('.panel-group').on('shown.bs.collapse', toggleIcon);
+    </script>
+</body>
+</html>
