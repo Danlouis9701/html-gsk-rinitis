@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang='es'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Videos</title>
+    <!-- Google Fonts -->
+    <link rel='preconnect' href='https://fonts.gstatic.com'>
+    <link href='https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap' rel='stylesheet'>
+    <!-- Bootstrap core CSS -->
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css' rel='stylesheet'>
+    <!-- Material Design Bootstrap -->
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel='stylesheet' href='css/mobile.css'>
+    <link rel='stylesheet' href='css/responsive.css'>
+    <style>
+        .card.card-certificado {
+            border-radius: 1.25rem;
+            -webkit-box-shadow: 0 2px 5px 0 rgb(255 130 0 / 16%), 0 2px 10px 0 rgb(255 130 0 / 12%);
+            box-shadow: 0 2px 5px 0 rgb(255 130 0 / 16%), 0 2px 10px 0 rgb(255 130 0 / 12%);
+        }
+
+        .card-certificado .card-body {
+            padding: 2.25rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="top-menu" class="container-fluid">
+        <div class="row py-2">
+            <div class="col-3 col-md-6">
+                <nav id="menu-hamburguer">
+                    <div id="menuToggle">
+                        <input type="checkbox" />
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <ul id="menu">
+                            <a href="index.html" id="btn-Home">
+                                <li>Home</li>
+                            </a>
+                            <a href="registro.html" id="btn-Register">
+                                <li>Registro</li>
+                            </a>
+                            <a href="agenda.html" id="btn-Agenda">
+                                <li>Agenda</li>
+                            </a>
+                            <a href="#" id="btn-Speakers">
+                                <li>Speakers</li>
+                            </a>
+                            <a href="ondemand.html" id="btn-Sessions">
+                                <li>On Demand</li>
+                            </a>
+                            <a href="#" id="btn-Sessions">
+                                <li>Contacto</li>
+                            </a>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-9 col-md-6 text-right">
+                <div class="row align-items-center">
+                    <div class="col-6 col-md-7"><a type="button" href="login.html"
+                            class="btn btn-info mr-0">Ingresar</a></div>
+                    <div class="col-6 col-md-5"><img src="images/logos-menu.png" alt="" class="img-fluid"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="bg-ondemand">
+        <div class="container-fluid">
+            <div class="row justify-content-center pt-5">
+                <div class="col-12 col-md-8 col-lg-6 mt-5">
+                    <div class="card card-certificado">
+                        <div class="card-body text-center">
+                            <h4 class="color-primario mb-4">Cada módulo tendrá una evaluación para poder obtener el
+                                certificado de <span class="font-weight-bold">CONAMEGE,</span> tendrá que obtener el
+                                <span class="font-weight-bold">80% de aprobación de examen por módulo.</span></h4>
+                            <h4 class="color-primario mb-4">Cada módulo es independiente, pues cada uno tiene su
+                                evaluación y no es necesario que se contesten consecutivamente.</h4>
+                            <h4 class="color-primario mb-4">Para poder obtener el certificado del <span
+                                    class="font-weight-bold">HIM Hospital Infantil Privado</span> sí es necesario que
+                                curse y apruebe los 4 módulos.</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-100"></div>
+                <div class="col-10 col-md-6 col-lg-4 mt-4">
+                    <a href="#" class="btn btn-orange btn-block" data-toggle="modal"
+                        data-target="#basicExampleModal">Obtener certificado general</a>
+                </div>
+            </div>
+        </div>
+        <!-- end of container -->
+        <div class="height-5vh d-none d-lg-block"></div>
+    </section>
+    <footer>
+        <div class="container-fluid py-2">
+            <div class="row">
+                <div class="col-12 text-right"></div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <h2>Disponible a partir de Diciembre 2021</h2>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-info" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- JQuery -->
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    <!-- Font Awesome -->
+    <script src='https://kit.fontawesome.com/5b94966658.js' crossorigin='anonymous'></script>
+    <!-- Bootstrap tooltips -->
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js'>
+    </script>
+    <!-- Bootstrap core JavaScript -->
+    <script type='text/javascript'
+        src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js'></script>
+    <!-- MDB core JavaScript -->
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js'>
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+</body>
+
+</html>
