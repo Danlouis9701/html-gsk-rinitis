@@ -5,9 +5,9 @@
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
     /* Estilos Home */
-    #bg-home{
+    /* #bg-home{
         background-image: url(../images/Home-Escritorio.jpg);
-    }
+    } */
  }
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {  }
